@@ -1,3 +1,6 @@
+/*
+Functions in go.
+*/
 package pgms
 
 import "fmt"
