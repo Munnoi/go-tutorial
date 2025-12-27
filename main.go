@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	pgms.Array()
+	pgms.Conditions()
 }
