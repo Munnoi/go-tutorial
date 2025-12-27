@@ -1,3 +1,6 @@
+/*
+Switch statement in Go.
+*/
 package pgms
 
 import "fmt"
