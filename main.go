@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	pgms.Conditions()
+	pgms.Switch()
 }
