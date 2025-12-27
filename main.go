@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	pgms.Hello()
+	pgms.Constants()
 }
