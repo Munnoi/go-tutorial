@@ -1,9 +1,11 @@
 package main
 
 import (
-	"go-tutorial/pgms"
+	// basic "go-tutorial/pgms/basic"
+	problems "go-tutorial/pgms/problems"
 )
 
 func main() {
-	pgms.Maps()
+	problems.Program001()
+	problems.Program002()
 }
