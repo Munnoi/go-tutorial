@@ -6,7 +6,7 @@ import (
 	"sort"
 )
 
-func secondLargest_v1(arr []int) int {
+func secondLargestV1(arr []int) int {
 	if len(arr) < 2 {
 		return -1
 	}
@@ -30,7 +30,7 @@ func secondLargest_v1(arr []int) int {
 	return second
 }
 
-func secondLargest_v2(arr []int) int {
+func secondLargestV2(arr []int) int {
 	if len(arr) < 2 {
 		return -1
 	}
@@ -49,5 +49,6 @@ func secondLargest_v2(arr []int) int {
 
 func Program002() {
 	arr := []int{1, 2, 3, 4, 5}
-	fmt.Println(secondLargest_v2(arr))	
+	fmt.Println(secondLargestV2(arr))
 }
+
