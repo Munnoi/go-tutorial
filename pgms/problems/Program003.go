@@ -1,6 +1,5 @@
-package pgms
-
 // Palindrome check
+package pgms
 
 import "fmt"
 

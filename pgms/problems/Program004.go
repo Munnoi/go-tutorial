@@ -1,8 +1,8 @@
+// String reverse
 package pgms
 
 import "fmt"
 
-// String reverse
 
 func reverseV1(s string) string {
 	r := []rune(s)

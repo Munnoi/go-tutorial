@@ -1,8 +1,9 @@
+// Reverse in groups
 package pgms
 
 import "fmt"
 
-func reverseInGroups(arr []int, k int) {
+func reverseInGroupsV1(arr []int, k int) {
 	n := len(arr)
 	for i := 0; i < n; i+=k {
 		left := i
@@ -22,6 +23,6 @@ func reverseInGroups(arr []int, k int) {
 func Program006() {
 	arr := []int{1, 2, 3, 4, 5, 6, 7, 8}
 	k := 4
-	reverseInGroups(arr, k)
+	reverseInGroupsV1(arr, k)
 	fmt.Println(arr)
 }

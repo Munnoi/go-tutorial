@@ -1,3 +1,4 @@
+// Second largest element in an array
 package pgms
 
 import (
