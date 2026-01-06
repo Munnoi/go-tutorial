@@ -6,5 +6,5 @@ import (
 )
 
 func main() {
-	problems.Program008()
+	problems.Program009()
 }
