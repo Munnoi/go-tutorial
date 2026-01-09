@@ -1,3 +1,4 @@
+// Maximum perimeter of a triangle
 package pgms
 
 import "fmt"
