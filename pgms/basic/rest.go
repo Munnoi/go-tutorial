@@ -5,7 +5,6 @@ import (
 	"net/http"
 	"encoding/json"
 	"strconv"
-	
 )
 
 type User struct {
