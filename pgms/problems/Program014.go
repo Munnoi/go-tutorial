@@ -31,7 +31,17 @@ func toggleCaseV2(s string) string {
 	return result
 }
 
+func toggleCaseV3(s string) string {
+	runes := []rune(s)
+
+	for i, char := range runes {
+		runes[i] = char ^ (1 << 5)
+	}
+
+	return string(runes)
+}
+
 func Program014() {
 	s := "Hello World"
-	fmt.Println(toggleCaseV2(s))
+	fmt.Println(toggleCaseV3(s))
 }
