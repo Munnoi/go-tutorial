@@ -2,7 +2,7 @@ package pgms
 
 import "fmt"
 
-func sortedSubsequenceOfSize3(arr []int) []int {
+func sortedSubsequenceOfSize3V1(arr []int) []int {
 	n := len(arr)
 
 	if n < 3 {
@@ -43,5 +43,5 @@ func sortedSubsequenceOfSize3(arr []int) []int {
 
 func Program031() {
 	arr := []int{12, 11, 10, 5, 6, 2, 30}
-	fmt.Println(sortedSubsequenceOfSize3(arr))
+	fmt.Println(sortedSubsequenceOfSize3V1(arr))
 }
